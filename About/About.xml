@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Infinity Mining Density</Name>
+  <Author>@!!ex</Author>
+  <Version>1.000000.00</Version>
+  <Description>Prevents mining density from dropping below 0.1 and provides minimum ore yield when density reaches the floor.
+  
+  Save Safe: this mod does not affect your save file integrity. So you can disable it at any moment without consequences.
+  
+  This is a Plugin Mod.
+  It requires BepInEx to be installed with the StationeersLaunchPad plugin.
+  See: https://github.com/StationeersLaunchPad/StationeersLaunchPad
+
+  In the endgame, I like to build a spaceport where rockets continuously fly on their own to mine ice. Since rockets were replaced with new ones controlled by computer, this became impossible because mining resources are finite. This mod changes the situation. Now, when density reaches 0.1, it stops decreasing, but mining yield drops to 25%. As a result, rockets become less efficient but fully automated. This allows you to completely step away from base management and enjoy your creations from the sidelines, only occasionally changing consumables.</Description>
+  <ChangeLog xsi:nil="true" />
+  <WorkshopHandle>3561761270</WorkshopHandle>
+  <Tags />
+  <Dependencies />
+  <LoadBefore />
+  <LoadAfter />
+  <InGameDescription xsi:nil="true" />
+</ModMetadata>
